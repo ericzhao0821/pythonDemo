@@ -1,0 +1,9 @@
+{
+    "azureFunctions.projectSubpath": "zjPyConVoting",
+    "azureFunctions.deploySubpath": "zjPyConVoting/zjPyConVoting.zip",
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~2",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "func: pack"
+}
