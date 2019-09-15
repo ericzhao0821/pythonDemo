@@ -36,7 +36,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     Eric = votes.find({'VotedFor': 'Eric'}).count()
     Marry = votes.find({'VotedFor': 'Marry'}).count()
     Others = Total - Bob - Eric - Marry
-    print "Demo01"
 
     return_data['TotalVotes'] = Total
     return_data['Bob'] = Bob
