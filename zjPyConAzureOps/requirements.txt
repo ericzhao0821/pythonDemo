@@ -1,0 +1,2 @@
+pymsteams
+azure-mgmt-compute~=4.3
