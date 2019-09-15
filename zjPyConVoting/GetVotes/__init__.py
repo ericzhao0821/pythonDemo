@@ -29,7 +29,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     Eric = 0
     Marry = 0
     Others = 0
-    Demo01 = 0
     Total = 0
 
     Total = votes.find().count()
